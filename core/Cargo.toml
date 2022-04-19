@@ -31,7 +31,7 @@ tract-data = { path = "../data" }
 tract-linalg = { path = "../linalg" }
 
 [features]
-default = [ ]
+default = [ "paranoid_assertions" ]
 paranoid_assertions = []
 
 [dev-dependencies]
